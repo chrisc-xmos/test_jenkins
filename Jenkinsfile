@@ -3,13 +3,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh'''echo Hello'''
+                sh'''echo Goodbyeo'''
             }
-        }
-	stage('Trying more build') {
-	steps {
-		sh'''echo Test'''
-	}
 	}
     }
 }
